@@ -6,9 +6,9 @@ bool Guess(int number) {
 }
 int main(array<System::String ^> ^args)
 {
-	int guess;
+	int x;
 	do {
-		std::cin >> guess;
-	} while (!Guess(guess));
+		std::cin >> x;
+	} while (!Guess(x));
 	return 0;
 }
