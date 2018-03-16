@@ -1,3 +1,4 @@
+
 #include <string>
 #include <iostream>
 using namespace System;
@@ -7,12 +8,7 @@ bool Guess(int number) {
 		Random r;
 		target = r.Next() % 100 + 1;
 	}
-	if (number == target) {
-		std::cout << "Correct !!";
-		target = -1;
-		return true;
-	}
-	else std::cout << "Wrong" << std::endl;
+	if (number == target)return true;
 	return false;
 }
 int main(array<System::String ^> ^args)
