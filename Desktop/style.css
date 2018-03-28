@@ -2,12 +2,11 @@ body {
     background-color: #EDF2C5;
     margin: 0px;
   }
-  .container::after , .site-nav ul::after, article::after, .button_content::after, .vegetables::after{
+  .container::after , nav ul::after, article::after, .button_content::after, .vegetables::after{
     content: "";
     display: block;
     clear: both;
   }
-  
   .title {
     margin: 0;
     font-size: 44px;
@@ -25,12 +24,6 @@ body {
     margin-bottom: 10px;
     box-sizing: border-box;
   }
-  .left{
-    float: left;
-  }
-  .right{
-    float: right;
-  }
   .icon, .btn{
     display: inline-block;
     margin-top: 19px;
@@ -43,7 +36,6 @@ body {
     margin-left: 10px;
     border-left: 1px solid #778A50;
   }
-  
   button{
     border:1px solid #75874F;
     border-radius: 3px;
@@ -53,41 +45,12 @@ body {
     padding: 3px 8px;
     margin-left: 10px;
   }
-  .site-nav {
-    margin-top: 20px;
-    width: 940px;
-    box-sizing: border-box;
-    margin: 10px auto;
-  }
-  .site-nav ul {
-    border-radius: 3px;
-    background-color: #889C5B;
-    margin: 0;
-    padding: 0px;
-  }
-  .site-nav li{
-    list-style: none;
-    float: left;
-    margin-right: 5px;
-  
-  }
-  .site-nav a {
-    display: block;
-    margin: 0;
-    color: #EDF2C5;
-    font-family: Arial Black;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 16px 30px;
-  }
-  
   article {
     margin: 0 auto;
     width: 1260px;
     padding: 0 160px;
     box-sizing: border-box;
   }
-  
   .title_vegetables, .title_contact{
     background-color: #889C5B;
     font-family: Arial Black;
@@ -113,8 +76,6 @@ body {
     margin-right: 12px;
   }
   .buttom_content {
-    float: left;
-    width: 940px;
     margin: 0 auto;
     display: inline;
   }
@@ -135,7 +96,38 @@ body {
   #email {
     margin-bottom: 15px;
   }
-  
+  .le{
+    float: left;
+  }
+  .ri{
+    float: right;
+  }
+  nav {
+    margin-top: 20px;
+    width: 940px;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+  nav ul {
+    border-radius: 3px;
+    background-color: #889C5B;
+    margin: 0;
+    padding: 0px;
+  }
+  nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+  }
+  nav a {
+    display: block;
+    margin: 0;
+    color: #EDF2C5;
+    font-family: Arial Black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 16px 30px;
+  }
   footer {
     font: 12px Arial Black;
     background-color: #889C5B;
